@@ -1,0 +1,1 @@
+from .password_generator import strongpass, generate_password
