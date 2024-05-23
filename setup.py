@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ete-pass',
+    name='ete_pass',
     version='1.0.0',
     packages=find_packages(),
     description="A strong password generator with choosable characters and length",
@@ -9,7 +9,7 @@ setup(
     long_description_content_type='text/markdown',
     author="Alireza Etezad",
     author_email="ar_etezad@yahoo.com",
-    url="https://github.com/AlirezaEtezad/ete-pass",
+    url="https://github.com/AlirezaEtezad/ete_pass",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

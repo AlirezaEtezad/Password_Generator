@@ -1,6 +1,6 @@
 # Password Generator
 
-Ete-Pass is a strong password generator with customizable character types and length.
+Ete_Pass is a strong password generator with customizable character types and length.
 
 ## Features
 
@@ -11,12 +11,12 @@ Ete-Pass is a strong password generator with customizable character types and le
 ## Installation
 
 ```sh
-pip install ete-pass
+pip install ete_pass
 ```
 
 ## Usage:
 ```sh
-from ete-pass import strongpass
+from ete_pass import strongpass
 ```
 
 ### Generate a password of length 12 with all character types
