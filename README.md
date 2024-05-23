@@ -4,7 +4,7 @@ Ete_Pass is a strong password generator with customizable character types and le
 
 ## Features
 
-- Generate passwords of desired length.
+- Generate passwords of desired length. (Min3, Max100)
 - Include or exclude lowercase letters, uppercase letters, numbers, and symbols.
 - command line accessabitly.
 
