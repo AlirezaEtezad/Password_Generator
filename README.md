@@ -2,13 +2,13 @@
 
 Ete_Pass is a strong password generator with customizable character types and length.
 
-## Features
+## Features:
 
 - Generate passwords of desired length. (Min3, Max100)
 - Include or exclude lowercase letters, uppercase letters, numbers, and symbols.
 - command line accessabitly.
 
-## Installation
+## Installation:
 
 ```sh
 pip install ete_pass
