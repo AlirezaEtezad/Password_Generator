@@ -9,7 +9,7 @@ setup(
     long_description_content_type='text/markdown',
     author="Alireza Etezad",
     author_email="ar_etezad@yahoo.com",
-    url="https://github.com/AlirezaEtezad/ete_pass",
+    url="https://github.com/AlirezaEtezad/Password_Generator",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
