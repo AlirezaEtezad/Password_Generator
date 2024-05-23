@@ -1,5 +1,5 @@
 import unittest
-from password_generator.password_generator import PassGen, strongpass, generate_password
+from password_generator.password_generator import PassGen, strongpass
 
 class TestPassGen(unittest.TestCase):
     def test_generate_password_default_length(self):
@@ -30,7 +30,7 @@ class TestPassGen(unittest.TestCase):
     def test_generate_password_with_no_symbols(self):
         pg = PassGen(length=10, use_symbols=False)
         password = pg.generate_password()
-        self.assertTrue(all(char in '!@#$%^&*()' == False for char in password))
+        self.assertTrue(all(char not in '!@#$%^&*()' for char in password))
 
     def test_strongpass_default_length(self):
         password = strongpass()
@@ -42,4 +42,3 @@ class TestPassGen(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
