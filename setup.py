@@ -1,9 +1,20 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='passgen',
-    version='0.1',
+    name='ete-pass',
+    version='1.0.0',
     packages=find_packages(),
+    description="A strong password generator with choosable characters and length",
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    author="Alireza Etezad",
+    author_email="ar_etezad@yahoo.com",
+    url="https://github.com/AlirezaEtezad/ete-pass",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
     install_requires=[
         'click',
     ],
@@ -12,4 +23,5 @@ setup(
             'generate-password=passgen.password_generator:generate_password',
         ],
     },
+    python_requires='>=3.6',
 )
