@@ -20,7 +20,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'generate-password=passgen.password_generator:generate_password',
+            'generate-password=password_generator.password_generator:generate_password',
         ],
     },
     python_requires='>=3.6',

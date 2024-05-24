@@ -16,7 +16,7 @@ pip install ete_pass
 
 ## Usage:
 ```sh
-from ete_pass import strongpass
+from password_generator import strongpass
 ```
 
 ### Generate a password of length 12 with all character types
