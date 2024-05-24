@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ete_pass',
-    version='1.0.1',
+    version='1.0.2',
     packages=find_packages(),
     description="A strong password generator with choosable characters and length",
     long_description=open('README.md').read(),
